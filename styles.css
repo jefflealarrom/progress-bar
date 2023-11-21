@@ -40,8 +40,16 @@ body {
     transform: translate(-50%, -50%);
     font-size: 50px;
     color: black;
-    
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    border: 15px inset rgb(0, 0, 0);
+    padding: 40px;
 }
+
+
+
+
 
 @keyframes loadingAnimation {
     0% {
