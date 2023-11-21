@@ -4,8 +4,8 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #000; 
-    color: #fff; 
+    padding: 0;
+    background-color: #000;
 }
 
 /* .title {
@@ -17,19 +17,19 @@ body {
 } */
 
 .loading-container {
-    width: 90vw; 
-    height: 25vh; 
+    width: 100vw; 
+    height: 100vh; 
     background-color: #000000;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     overflow: hidden;
     position: relative;
 }
 
 .loading-bar {
     height: 100%;
-    width: 85%;
+    width: 70%;
     background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
-    animation: loadingAnimation 3s infinite;
+    animation: loadingAnimation 10s infinite;
     transform-origin: left;
 }
 
@@ -43,7 +43,7 @@ body {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    border: 15px inset rgb(0, 0, 0);
+    /* border: 10px solid rgb(0, 0, 0); */
     padding: 40px;
 }
 
@@ -63,4 +63,18 @@ body {
     }
 }
 
-/*el linear gradiente se puede usar para fondos fijos tambien,
+/*el linear gradiente se puede usar para fondos fijos tambien
+
+@media only screen and (max-width: 900px) {
+    .loading-container {
+        width: 80vw;
+        height: 15vh;
+    }
+
+    .loading-text {
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+*/
+
